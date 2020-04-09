@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" type="text/css" href="scoreKeeper.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+
+<p>Playing to: <span>5</span></p>
+
+
+<input type="number"><br><br>
+<button id="p1">Player One</button>
+<button id="p2">Player Two</button>
+<button id="reset">Reset</button>
+
+<div class="row">
+<div class="col-sm p-4"><i class="far fa-hand-rock"></i><br>
+<p>The rock is when you place your hand into the form of a simple fist.</p></div>
+<div class="col-sm p-4"><i class="far fa-hand-paper"></i>
+<p>The paper is when you place your hand in an outstretched position.</p></div>
+<div class="col-sm p-4"><i class="far fa-hand-scissors"></i>
+<p>This scissors is when you hold your fist with your index and middle finger pointing outwards in a V shape.</p></div>
+</div>
+
+<p>The rules to play are pretty simple.<br>
+The game is played where players deliver hand signals that will represent the elements of the game; rock, paper and scissors.<br>
+The outcome of the game is determined by 3 simple rules:<br><br>
+	
+Rock wins against scissors.<br>
+Scissors win against paper.<br>
+Paper wins against rock.</p>
+</div>
+
+<script type="text/javascript" src="scoreKeeper.js"></script>
+
+</body>
+</html>
