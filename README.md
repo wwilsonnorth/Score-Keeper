@@ -1,6 +1,6 @@
 # Score Keeper
-A score keeper to track your points playing rock, paper, scissors against friends. This project was built as part of Colt Steele's Web Developer Bootcamp course. The course takes you through building the functionality making it very basic so I created the design, layout and idea behind the rest of the application.
+This application was built as part of Colt Steele's Web Developer Bootcamp course.
 
-HTML, CSS & JavaScript used. The default game is first player to 5 points wins which can be changed using the text box and the score will cap at whatever value is entered.
+A score keeper to track your score when playing rock, paper, scissors against friends. The default game is the first player to 5 points wins. This can be changed using the text box and the score will cap at whatever value is entered. Having built this through the course which takes you through building the functionality making it very basic, I created the design, layout and idea behind the rest of the application.
 
-Use this link to view the entire site - https://wwilsonnorth.github.io/Score-Keeper/
+Download and run on your machine to try yourself or use this link to play - https://wwilsonnorth.github.io/Score-Keeper/
